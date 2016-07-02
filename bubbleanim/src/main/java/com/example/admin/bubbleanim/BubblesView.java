@@ -90,7 +90,7 @@ public class BubblesView extends SurfaceView implements SurfaceHolder.Callback {
 	}
 
 	private void randomlyAddBuddles(int width, int height) {
-		if (Math.random()>mAddBubbleFrequency) {
+		if (Math.random()>mAddBubbleFrequency||mBubbles.size()>10) {
 			return;
 		}
 		mBubbles.add(new Bubble((float)(width*Math.random()), (float)(height*Math.random()*2), (float)(Bubble.MAX_SPEED*Math.random())));

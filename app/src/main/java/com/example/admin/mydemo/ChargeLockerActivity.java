@@ -13,6 +13,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.view.SlideFinishView;
@@ -42,7 +43,8 @@ public class ChargeLockerActivity extends  BaseActivity2 {
 //        getWindow().setFlags(WindowManager.LayoutParams.FILL_PARENT, WindowManager.LayoutParams.FILL_PARENT);  //设置全屏
         this.getWindow().addFlags(524288);
         this.getWindow().addFlags(4194304);
-        View mainView = LayoutInflater.from(this).inflate(R.layout.content_main, null, false);
+        View mainView = LayoutInflater.from(this).inflate(R.layout.charge_main, null, false);
+        ViewGroup.LayoutParams layoutParams = mainView.getLayoutParams();
         slideFinishView=new SlideFinishView(this, SlideFinishView.SlideDirection.RIGHT_FINISH, mainView);
         slideFinishView.setLayoutParams(new ActionBar.LayoutParams(-1, -1));
         slideFinishView.setCanScroll(true);

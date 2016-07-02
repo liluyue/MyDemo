@@ -38,7 +38,7 @@ public class Bubble {
 		bubbleColor=Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256));
 		bubblePaint.setColor(bubbleColor);
 		bubblePaint.setStyle(Paint.Style.FILL_AND_STROKE);
-		bubblePaint.setAlpha(10);
+//		bubblePaint.setAlpha(10);
 		textPaint.setTextSize(radius/2);
 		text=textList.get(random.nextInt(textList.size()));
 	}

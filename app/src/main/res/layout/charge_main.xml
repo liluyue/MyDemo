@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dsb_disabled_color">
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:id="@+id/battery_pg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wlv_borderColor="@color/dsb_ripple_color_focused"
+        app:wlv_progressValue="10"
+        app:wlv_round_rectangle="false"
+        app:wlv_shapeType="rectangle"
+        app:wlv_waveAmplitude="20"
+        app:wlv_waveColor="@color/dsb_progress_color_list" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/sfl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        app:base_alpha="0.5"
+        app:dropoff="0.1"
+        app:duration="1000"
+        app:tilt="0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="右滑解锁→"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.view.ShimmerTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充电锁屏"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+</RelativeLayout>

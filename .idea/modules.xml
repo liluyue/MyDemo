@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bubbleanim/bubbleanim.iml" filepath="$PROJECT_DIR$/bubbleanim/bubbleanim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/shimmer-android/shimmer-android.iml" filepath="$PROJECT_DIR$/shimmer-android/shimmer-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waveloadingiview/waveloadingiview.iml" filepath="$PROJECT_DIR$/waveloadingiview/waveloadingiview.iml" />
       <module fileurl="file://$PROJECT_DIR$/waveloadingview/waveloadingview.iml" filepath="$PROJECT_DIR$/waveloadingview/waveloadingview.iml" />
     </modules>
   </component>
