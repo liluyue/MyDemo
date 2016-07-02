@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/BubbleActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/ChargeLockService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/ChargeLockerActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/background.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/fb_logo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/shimmer_man.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shimmer-android" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

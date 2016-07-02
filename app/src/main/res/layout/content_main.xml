@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="@color/dsb_disabled_color">
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:id="@+id/battery_pg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wlv_borderColor="@color/dsb_ripple_color_focused"
+        app:wlv_round_rectangle="true"
+        app:wlv_shapeType="rectangle"
+        app:wlv_waveAmplitude="20"
+        app:wlv_progressValue="10"
+        app:wlv_waveColor="@color/dsb_progress_color_list"
+        />
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@+id/sfl1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:base_alpha="0.5"
+    app:dropoff="0.1"
+    app:duration="1000"
+    app:tilt="0"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true">
+    <TextView android:text="Hello World!→" android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon"
+        android:gravity="center"/>
+</com.facebook.shimmer.ShimmerFrameLayout>
+    <com.view.ShimmerTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@android:color/white"
+        android:text="充电锁屏"/>
+</RelativeLayout>
