@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cl_mainpage_backgroud_color">#00000000</color>
+    <color name="cl_datetime_hour_text_color">#ffffff</color>
+    <color name="cl_datetime_turnoff_text_color">#656d78</color>
+    <color name="cl_percent_text_color">#ffffff</color>
+    <color name="cl_battery_backgroud_color">#3bafda</color>
+    <color name="cl_battery_text_minute_color">#ffce54</color>
+</resources>

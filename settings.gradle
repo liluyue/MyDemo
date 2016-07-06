@@ -1,1 +1,1 @@
-include ':app', ':shimmer-android', ':waveloadingview', ':bubbleanim'
+include ':app', ':shimmer-android', ':bubbleanim', ':waveloadingview', ':waveloadingsample', ':chargeLocker'

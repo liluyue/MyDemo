@@ -15,6 +15,8 @@ import android.view.View;
 
 import com.facebook.shimmer.example.ShimmerActivity;
 
+import me.itangqi.waveloadingview.WaveLoadingActivity;
+
 public class MainActivity extends BaseActivity {
     Snackbar snackbar;
     private Toolbar toolbar;
@@ -117,7 +119,9 @@ public class MainActivity extends BaseActivity {
                         startActivity(intent);
                         break;
                     case R.id.navigation_item_waveloading:
-
+                        intent = new Intent();
+                        intent.setComponent(new ComponentName(getApplication(), WaveLoadingActivity.class));
+                        startActivity(intent);
                         break;
                     case R.id.navigation_item_chargeLocker:
                          intent = new Intent();

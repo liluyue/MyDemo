@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:background="#007700">
+
+    <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="@dimen/cl_percent_textsize_width"
+            android:layout_height="@dimen/cl_percent_textsize_height"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"
+            tools:text="daf"
+            android:textSize="@dimen/cl_percentage_textsize"
+            android:textColor="@color/cl_percent_text_color" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/left_minites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:layout_below="@id/linear"
+        android:layout_marginTop="@dimen/cl_percentage_margin_top"
+        tools:text="@string/power_saving_charging_text"
+        android:textColor="@color/cl_datetime_hour_text_color"
+        android:textSize="@dimen/cl_percentage_leftminute_textsize" />
+
+</RelativeLayout>

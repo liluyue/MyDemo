@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ChargeLockerf</string>
+    <string name="action_settings">Settings</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期七</string>
+
+    <string name="cl_date_january">January</string>
+    <string name="cl_date_february">February</string>
+    <string name="cl_date_march">March</string>
+    <string name="cl_date_april">April</string>
+    <string name="cl_date_may">May</string>
+    <string name="cl_date_june">June</string>
+    <string name="cl_date_july">July</string>
+    <string name="cl_date_august">August</string>
+    <string name="cl_date_september">September</string>
+    <string name="cl_date_october">October</string>
+    <string name="cl_date_november">November</string>
+    <string name="cl_date_december">December</string>
+
+    <string name="power_saving_charging_text">Full charged Left %1$s</string>
+</resources>

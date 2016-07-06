@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <com.example.admin.chargelocker.WaveLoadingView
+        android:id="@+id/battery_pg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.admin.chargelocker.ShimmerTextView
+        android:id="@+id/st_unlodck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/cl_shimmer_margin_bottom"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="右滑解锁 >"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <include
+        android:id="@+id/showtime"
+        layout="@layout/showtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <include
+        layout="@layout/battery_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showtime" />
+</RelativeLayout>

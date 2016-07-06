@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- 闹钟view -->
+    <dimen name="cl_datetime_margin_top">18dp</dimen>
+    <dimen name="cl_datetime_margin_left">16dp</dimen>
+    <dimen name="cl_datetime_hour_width">80dp</dimen>
+    <dimen name="cl_datetime_hour_height">24dp</dimen>
+    <dimen name="cl_datetime_hour_textsize">24dp</dimen>
+    <dimen name="cl_datetime_month_textsize">14dp</dimen>
+    <dimen name="cl_datetime_setting_size">24dp</dimen>
+    <dimen name="cl_datetime_turnoff_button_width">94dp</dimen>
+    <dimen name="cl_datetime_turnoff_button_height">30dp</dimen>
+    <dimen name="cl_datetime_turnoff_button_textsize">14sp</dimen>
+    <!--百分比电量 -->
+    <dimen name="cl_percent_textsize_width">200dp</dimen>
+    <dimen name="cl_percent_textsize_height">80dp</dimen>
+    <dimen name="cl_percent_textsize">80sp</dimen>
+    <dimen name="cl_percentage_textsize">30sp</dimen>
+    <dimen name="cl_percentage_leftminute_textsize">15dp</dimen>
+    <dimen name="cl_percentage_margin_top">10dp</dimen>
+
+    <dimen name="cl_percentage_padding_top">25dp</dimen>
+    <dimen name="cl_percentage_padding_bottom_half">116dp</dimen>
+    <dimen name="cl_percentage_padding_bottom_all">26dp</dimen>
+    <dimen name="cl_shimmer_margin_bottom">34dp</dimen>
+
+</resources>

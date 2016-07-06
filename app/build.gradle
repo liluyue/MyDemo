@@ -29,5 +29,5 @@ dependencies {
     compile 'org.adw.library:discrete-seekbar:1.0.0'
     compile project(':shimmer-android')
     compile project(':waveloadingview')
-    compile project(':bubbleanim')
+     compile project(':bubbleanim')
 }

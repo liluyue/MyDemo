@@ -6,11 +6,16 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/ChargeLockService.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/ChargeLockerActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/mydemo/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/me/itangqi/waveloadingview/WaveLoadingActivity.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/background.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/fb_logo.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/shimmer_man.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/wave_main.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/shimmer-android" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shimmer-android/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/waveloadingsample" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/waveloadingview" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

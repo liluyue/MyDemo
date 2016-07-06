@@ -11,8 +11,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bubbleanim" />
+            <option value="$PROJECT_DIR$/chargeLocker" />
             <option value="$PROJECT_DIR$/shimmer-android" />
-            <option value="$PROJECT_DIR$/waveloadingiview" />
+            <option value="$PROJECT_DIR$/waveloadingsample" />
+            <option value="$PROJECT_DIR$/waveloadingview" />
           </set>
         </option>
       </GradleProjectSettings>
